@@ -3,17 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dp_medievalfantasy;
+package medievalfantasy;
 
 /**
  *
  * @author ampedPF
  */
 public class Brigand extends Personnage{
-    public Brigand(){
+    public Brigand(String name){
         super(new CombatAuCouteau());
+        setName(name);
         setHitPoint(4);
         setStrength(2);
+        setAgility(5);
+        setDeathMessage("Nooooooo.....");
     }
 
     @Override

@@ -3,17 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dp_medievalfantasy;
+package medievalfantasy;
 
 /**
  *
  * @author ampedPF
  */
 public class Troll extends Personnage{
-    public Troll(){
+    public Troll(String name){
         super(new CombatALaHache());
+        setName(name);
         setHitPoint(6);
         setStrength(4);
+        setAgility(1);
+        setDeathMessage("ughguhguuggh");
     }
     
     @Override

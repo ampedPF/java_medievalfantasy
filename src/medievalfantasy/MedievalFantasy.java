@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dp_medievalfantasy;
+package medievalfantasy;
 
 import java.util.ArrayList;
 
@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author ampedPF
  */
-public class DP_MedievalFantasy {
+public class MedievalFantasy {
 
     /**
      * @param args the command line arguments
@@ -34,17 +34,11 @@ public class DP_MedievalFantasy {
             p.batsToi();
         }*/
         
-        Troll troll = new Troll();
-        Chevalier chev = new Chevalier();
+        Troll troll = new Troll("Turol");
+        Chevalier chev = new Chevalier("Arthur");
         
-        while(troll.getHitPoint() > 0){
-            troll.afficheToi();
-            chev.afficheToi();
-            chev.attackTarget(troll);
-            if(troll.getHitPoint()<=0){
-                System.out.println("target down");
-            }
-        }
+        Duel trollVSchev = new Duel(troll, chev);
+        trollVSchev.start();
     }
     
 }

@@ -1,0 +1,27 @@
+﻿move to git
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   build.xml
+#	modified:   nbproject/build-impl.xml
+#	modified:   nbproject/genfiles.properties
+#	modified:   nbproject/project.properties
+#	modified:   nbproject/project.xml
+#	deleted:    src/dp_medievalfantasy/Brigand.java
+#	deleted:    src/dp_medievalfantasy/Chevalier.java
+#	deleted:    src/dp_medievalfantasy/Combat.java
+#	deleted:    src/dp_medievalfantasy/CombatALaHache.java
+#	deleted:    src/dp_medievalfantasy/CombatAuCouteau.java
+#	deleted:    src/dp_medievalfantasy/CombatAuSabre.java
+#	deleted:    src/dp_medievalfantasy/DP_MedievalFantasy.java
+#	deleted:    src/dp_medievalfantasy/Personnage.java
+#	deleted:    src/dp_medievalfantasy/Troll.java
+#
+# Untracked files:
+#	src/
+#
+
